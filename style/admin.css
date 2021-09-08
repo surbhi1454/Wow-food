@@ -1,0 +1,114 @@
+*{
+   margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; 
+}
+.wrapper{
+    padding: 1%; width: 80%; margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none; clear: both;  /* to move footer section to bottom*/
+}
+/* CSS for table */
+.tbl-50{
+    width: 50%;
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;  padding: 1%; text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff; color: white; padding: 1%; text-decoration: none; font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f; color: black; padding: 1%; text-decoration: none; font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81; color: white; padding: 1%; text-decoration: none; font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+/* CSS for session msg */
+.success{
+    /* color: #2ed573; */
+    color: black;
+    background-color: rgb(243, 243, 55);
+    width: 40%;
+}
+.error{
+    color: red;
+    width: 40%;
+}
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;  /*remove dots*/
+}
+.menu ul li{
+    display: inline;  /*display list horizontally*/
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;  /*remove bottom underline from list items*/
+    font-weight: bold; color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+/* CSS for main-content */
+.main-content{
+   background-color: #f1f2f6;  padding: 3% 0;
+   
+}
+.col-4{
+    width: 18%; background-color: white; margin: 1%; padding: 2%; 
+    float: left;  /* horizoontal col*/
+}
+/* CSS for footer */
+.footer{
+    background-color: #ff4757; color: white;
+    
+}
+
+/* CSS for login */
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: rgb(235, 235, 235);
+}
+.lsuccess{
+    color: black;
+    background-color: rgb(243, 243, 55);
+    width: 20%;
+}
+.lerror{
+    color: red;
+}
+.loginbtn-size{
+    font-size: 20px;
+    width: 100%;
+}
+.btn-size{
+    font-size: 15px;
+}
+/*  size for order table */
+.size{
+    font-size: 10px;
+}
